@@ -25,7 +25,6 @@ function Home() {
 		
 		<div className="whole">
 			<div className="maindata">
-				<canvas></canvas>
 				<Maindata/>
 			</div>
 			
