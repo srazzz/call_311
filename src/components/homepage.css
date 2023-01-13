@@ -184,8 +184,12 @@ input:focus {
   opacity: 0.9;
 
 }
-.whole .maindata canvas{
-	height:40%;
-	width:40%;
-	background-color:rgb(0,0,0,0.8);
+
+
+#data_button{
+  background-color: rgb(255,255,255,0.6);
+  color:black;
+  padding:1% 2% 1% 2%;
+  margin-left:5%;
+  border-radius:12px;
 }

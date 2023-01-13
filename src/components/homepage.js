@@ -2,6 +2,7 @@ import React from 'react'
 import './homepage.css'
 // import { Chart } from 'chart.js'
 import Maindata from './maindata'
+import { Link } from 'react-router-dom'
 function Home() {
 
 	return (
@@ -25,7 +26,9 @@ function Home() {
 		
 		<div className="whole">
 			<div className="maindata">
-				<Maindata/>
+				<Link to="/Maindata"><button ID="data_button">Display Data</button></Link>
+				<Link to="/Main"><button ID="data_button">Filter Data</button></Link>
+				{/* <Maindata/> */}
 			</div>
 			
 		</div>

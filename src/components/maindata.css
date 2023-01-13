@@ -1,0 +1,12 @@
+.tabledata{
+	background-color: black;
+	font:monospace;
+}
+.input-search{
+	background-color: rgb(0,0,0,0.6);
+	color:black;
+	padding:1% 2% 1% 2%;
+	margin-left:5%;
+	border-radius:12px;
+	float:right;
+}
